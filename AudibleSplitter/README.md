@@ -19,7 +19,7 @@ I'm sure this is probably possible on Macs/Linux, but I'm running Windows, so th
 
 You will first need to extract your "activation Bytes" - which you can find by using this excellent tool here:
 
-https://audible-converter.ml/
+https://audible-tools.kamsker.at/
 
 Once again, not endorsed in any way, use at your own risk.
 
