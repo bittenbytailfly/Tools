@@ -71,6 +71,6 @@ Foreach ($chapter in $metadata.chapters){
     $chapterFileName = $chapter.tags.title + '.mp3'
     $playlistContent += "#EXTINF:0,$chapterFileName`r`n$chapterFileName`r`n`r`n"
 }
-$playlistContent | Out-File $playlistPath
+$playlistContent | Out-File $playlistPath -Encoding utf8
 
 Write-Host "Conversion and splitting completed successfully."
